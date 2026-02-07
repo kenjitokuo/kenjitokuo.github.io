@@ -1,0 +1,48 @@
+:root {
+  --bg: #0b0c10;
+  --card: #12141b;
+  --text: #e7eaf0;
+  --muted: #aab2c5;
+  --line: rgba(255,255,255,.08);
+  --accent: #7aa2ff;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial; background: var(--bg); color: var(--text); }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+.container { max-width: 980px; margin: 0 auto; padding: 18px; }
+
+.site-header { border-bottom: 1px solid var(--line); background: linear-gradient(180deg, rgba(122,162,255,.12), rgba(0,0,0,0)); }
+.header-grid { display: grid; grid-template-columns: 1fr 320px; gap: 16px; align-items: start; }
+@media (max-width: 860px) { .header-grid { grid-template-columns: 1fr; } }
+
+.title { margin: 0; font-size: 34px; letter-spacing: .2px; }
+.subtitle { margin: 8px 0 10px; color: var(--muted); }
+.meta { margin: 0; color: var(--muted); }
+.sep { margin: 0 8px; color: rgba(255,255,255,.25); }
+
+.header-card { background: rgba(255,255,255,.03); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+.btn { width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid var(--line); background: rgba(122,162,255,.10); color: var(--text); cursor: pointer; }
+.btn:hover { background: rgba(122,162,255,.18); }
+
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 16px; margin: 16px 0; }
+.section-title { margin: 0 0 10px; font-size: 18px; }
+.text { margin: 0; color: var(--muted); line-height: 1.65; }
+
+.status { color: var(--muted); margin: 6px 0 0; }
+.sections { display: grid; gap: 14px; margin-top: 12px; }
+
+.type-block { border: 1px solid var(--line); border-radius: 14px; padding: 14px; background: rgba(255,255,255,.02); }
+.type-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 10px; }
+.type-name { font-weight: 700; }
+.type-count { color: var(--muted); font-size: 12px; }
+
+.list { margin: 0; padding-left: 18px; }
+.item { margin: 8px 0; line-height: 1.55; }
+.item .date { color: var(--muted); font-size: 12px; margin-left: 8px; }
+.item .meta2 { color: var(--muted); font-size: 12px; display: block; margin-top: 2px; }
+
+.footer { margin: 20px 0 10px; color: var(--muted); }
+.small { margin: 8px 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
