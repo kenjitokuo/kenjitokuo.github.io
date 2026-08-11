@@ -492,7 +492,7 @@ function degreePriority(deg) {
 }
 
 function computeDegreeLineFromEducation(items) {
-  const FALLBACK = 'Doctor (Human and Environmental Studies, Kyoto University)';
+  const FALLBACK = 'Doctoral degree (Human and Environmental Studies, Kyoto University)';
   if (!Array.isArray(items) || items.length === 0) return FALLBACK;
   const candidates = [];
   for (const it of items) {
