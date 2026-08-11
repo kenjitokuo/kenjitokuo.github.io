@@ -6,6 +6,9 @@ const LANG = 'en';
 const LIMIT = 200;
 const SCRIPT_VERSION = '2026-02-07z';
 
+// NEW: top nav link target
+const RESEARCH_PAGE_URL = './research/index.html';
+
 const TYPES = [
   { key: 'research_interests', label: 'Research Interests / Keywords' },
   { key: 'research_experience', label: 'Research Experience' },
@@ -670,9 +673,39 @@ async function loadAll() {
   }
 }
 
+// NEW: Insert "Research" link into the header area (top nav)
+function ensureTopNav() {
+  if (document.getElementById('siteNav')) return;
+
+  const header = document.querySelector('.site-header');
+  if (!header) return;
+
+  const headerGrid = header.querySelector('.header-grid');
+  const leftCol = headerGrid ? (headerGrid.querySelector(':scope > div') || headerGrid) : (header.querySelector('.container') || header);
+
+  const nav = document.createElement('nav');
+  nav.id = 'siteNav';
+  nav.className = 'site-nav';
+  nav.style.marginTop = '10px';
+  nav.style.display = 'flex';
+  nav.style.gap = '12px';
+  nav.style.alignItems = 'center';
+  nav.style.fontSize = '0.95rem';
+  nav.style.opacity = '0.9';
+
+  const a = document.createElement('a');
+  a.href = RESEARCH_PAGE_URL;
+  a.textContent = 'Research';
+  a.rel = 'noopener';
+  nav.appendChild(a);
+
+  leftCol.appendChild(nav);
+}
+
 (function boot() {
   try {
-    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', loadAll);
+    ensureTopNav();
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { ensureTopNav(); loadAll(); });
     else loadAll();
   } catch (e) {
     const root = document.getElementById('rm-auto');
