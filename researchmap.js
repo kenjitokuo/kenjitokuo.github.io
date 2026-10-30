@@ -4,7 +4,7 @@
 const PERMALINK = 'tokuo';
 const LANG = 'en';
 const LIMIT = 200;
-const SCRIPT_VERSION = '2026-02-07z';
+const SCRIPT_VERSION = '2026-10-30-cache';
 
 const TYPES = [
   { key: 'research_interests', label: 'Research Interests / Keywords' },
@@ -515,26 +515,36 @@ function computeDegreeLineFromEducation(items) {
   return candidates[0].line || FALLBACK;
 }
 
-/* Fetch (429 aware) */
+/* Fetch: live API, with cached snapshot fallback */
 
-async function fetchJsonWithRetry(url, maxRetry = 5) {
+async function fetchJsonWithRetry(url, maxRetry = 1) {
   let lastErr = null;
   for (let i = 0; i <= maxRetry; i++) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 12000);
     try {
-      const res = await fetch(url, { method: 'GET', mode: 'cors', cache: 'no-store', headers: { 'Accept': 'application/json' } });
-      if (res.status === 429) {
-        const ra = res.headers.get('Retry-After');
-        const waitMs = ra && /^\d+$/.test(ra) ? Math.min(60000, parseInt(ra, 10) * 1000) : Math.min(12000, 500 * (2 ** i));
-        await sleep(waitMs);
-        throw new Error('HTTP 429 Too Many Requests');
+      const res = await fetch(url, {
+        method: 'GET',
+        mode: 'cors',
+        cache: 'no-store',
+        headers: { Accept: 'application/json' },
+        signal: controller.signal
+      });
+      if (res.status === 401 || res.status === 403 || res.status === 429) {
+        const err = new Error('HTTP ' + res.status + ' ' + res.statusText);
+        err.apiUnavailable = true;
+        throw err;
       }
-      if (!res.ok) throw new Error(`HTTP ${res.status} ${res.statusText}`);
-      return await res.json();
+      if (!res.ok) throw new Error('HTTP ' + res.status + ' ' + res.statusText);
+      const data = await res.json();
+      if (!data || !Array.isArray(data.items)) throw new Error('Unexpected API response');
+      return data;
     } catch (e) {
       lastErr = e;
-      if (i === maxRetry) break;
-      const backoff = Math.min(12000, 500 * (2 ** i));
-      await sleep(backoff);
+      if (e.apiUnavailable || i === maxRetry) break;
+      await sleep(1000 * (i + 1));
+    } finally {
+      clearTimeout(timeout);
     }
   }
   throw lastErr;
@@ -543,16 +553,34 @@ async function fetchJsonWithRetry(url, maxRetry = 5) {
 async function fetchAllItems(typeKey) {
   let start = 1;
   const all = [];
-  for (;;) {
-    const url = `https://api.researchmap.jp/${encodeURIComponent(PERMALINK)}/${encodeURIComponent(typeKey)}?format=json&lang=${encodeURIComponent(LANG)}&limit=${LIMIT}&start=${start}`;
-    const data = await fetchJsonWithRetry(url, 5);
-    const items = Array.isArray(data?.items) ? data.items : [];
+  for (let page = 0; page < 50; page++) {
+    const url = 'https://api.researchmap.jp/' + encodeURIComponent(PERMALINK) +
+      '/' + encodeURIComponent(typeKey) + '?format=json&lang=' +
+      encodeURIComponent(LANG) + '&limit=' + LIMIT + '&start=' + start;
+    const data = await fetchJsonWithRetry(url);
+    const items = data.items;
     all.push(...items);
-    if (items.length < LIMIT) break;
+    if (items.length < LIMIT) return all;
     start += items.length;
     await sleep(250);
   }
-  return all;
+  throw new Error('API pagination exceeded 50 pages');
+}
+
+async function loadSavedSnapshot() {
+  try {
+    const res = await fetch('./data/researchmap-cache.json', { cache: 'no-store' });
+    if (!res.ok) throw new Error('Saved snapshot unavailable');
+    const data = await res.json();
+    if (data.version !== 1 || data.permalink !== PERMALINK ||
+        data.lang !== LANG || !data.sections || typeof data.sections !== 'object') {
+      throw new Error('Saved snapshot is incompatible');
+    }
+    return data.sections;
+  } catch (error) {
+    console.warn('Researchmap saved snapshot unavailable:', error);
+    return {};
+  }
 }
 
 /* Render */
@@ -630,43 +658,61 @@ function render(root, sections) {
 async function loadAll() {
   const root = document.getElementById('rm-auto');
   if (!root) return;
-
   root.textContent = 'Loading…';
 
-  const sections = [];
-  let researchExperienceItems = [];
-  let educationItems = [];
-  let affiliation = '';
-  let degreeLine = '';
+  const saved = await loadSavedSnapshot();
+  const byKey = new Map();
 
+  for (const t of TYPES) {
+    if (Array.isArray(saved[t.key])) {
+      byKey.set(t.key, { key: t.key, label: t.label, items: saved[t.key], error: '' });
+    }
+  }
+
+  function renderCurrent() {
+    const sections = TYPES.filter(t => byKey.has(t.key)).map(t => byKey.get(t.key));
+    const experience = byKey.get('research_experience');
+    const education = byKey.get('education');
+    const affiliation = experience && !experience.error
+      ? computeAffiliationFromResearchExperience(experience.items) : '';
+    const degree = education && !education.error
+      ? computeDegreeLineFromEducation(education.items) : '';
+    const summary = [];
+    if (affiliation) {
+      summary.push({ key: '_affiliation', label: 'Affiliation', items: [{ _text: affiliation }], error: '' });
+    }
+    if (degree) {
+      summary.push({ key: '_degree', label: 'Degree', items: [{ _text: degree }], error: '' });
+    }
+    render(root, summary.concat(sections));
+  }
+
+  if (byKey.size) renderCurrent();
+
+  let consecutiveErrors = 0;
   for (const t of TYPES) {
     try {
       const items = await fetchAllItems(t.key);
-      sections.push({ key: t.key, label: t.label, items, error: '' });
-
-      if (t.key === 'research_experience') {
-        researchExperienceItems = items;
-        affiliation = computeAffiliationFromResearchExperience(researchExperienceItems);
+      byKey.set(t.key, { key: t.key, label: t.label, items, error: '' });
+      consecutiveErrors = 0;
+      renderCurrent();
+    } catch (error) {
+      // Keep previously saved items even if the live API is blocked.
+      if (!byKey.has(t.key)) {
+        byKey.set(t.key, {
+          key: t.key, label: t.label, items: [],
+          error: 'Failed to load ' + t.key + ': ' + String(error?.message || error)
+        });
+        renderCurrent();
       }
-      if (t.key === 'education') {
-        educationItems = items;
-        degreeLine = computeDegreeLineFromEducation(educationItems);
-      }
-
-      const injected = [];
-      if (affiliation) injected.push({ key: '_affiliation', label: 'Affiliation', items: [{ _text: affiliation }], error: '' });
-      if (degreeLine) injected.push({ key: '_degree', label: 'Degree', items: [{ _text: degreeLine }], error: '' });
-      render(root, injected.concat(sections));
-
-    } catch (e) {
-      sections.push({ key: t.key, label: t.label, items: [], error: `Failed to load ${t.key}: ${String(e?.message || e)}` });
-      const injected = [];
-      if (affiliation) injected.push({ key: '_affiliation', label: 'Affiliation', items: [{ _text: affiliation }], error: '' });
-      if (degreeLine) injected.push({ key: '_degree', label: 'Degree', items: [{ _text: degreeLine }], error: '' });
-      render(root, injected.concat(sections));
+      consecutiveErrors++;
+      // Avoid repeated failed requests when a network blocks the API.
+      if (error.apiUnavailable || consecutiveErrors >= 2) break;
     }
-
-    await sleep(800);
+    await sleep(300);
+  }
+  if (root.textContent.trim() === 'Loading…') {
+    root.textContent = 'Researchmap information could not be loaded.';
   }
 }
 
