@@ -2,6 +2,3384 @@
   "version": 1,
   "permalink": "tokuo",
   "lang": "en",
-  "updatedAt": null,
-  "sections": {}
+  "updatedAt": "2026-10-30T07:28:15.058Z",
+  "sections": {
+    "research_interests": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/10301522",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "10301522",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2019-09-19T03:38:10Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2019-09-19T03:38:10Z",
+        "keyword": {
+          "ja": "科学哲学",
+          "en": "Philosophy of Science"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/10301519",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "10301519",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2019-09-19T03:28:50Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2019-09-19T03:28:50Z",
+        "keyword": {
+          "ja": "分析哲学",
+          "en": "Analytic Philosophy"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/514454",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "514454",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-04T00:04:09Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2011-10-04T00:04:09Z",
+        "keyword": {
+          "ja": "非古典論理",
+          "en": "Non-Classical Logic"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/514453",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "514453",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-04T00:03:42Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-03-31T23:34:03Z",
+        "keyword": {
+          "ja": "数理論理学",
+          "en": "Mathematical Logic"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/514452",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "514452",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-04T00:01:06Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2011-10-04T00:01:06Z",
+        "keyword": {
+          "ja": "様相論理",
+          "en": "Modal Logic"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_interests/514451",
+        "@type": "research_interests",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
+        "rm:id": "514451",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:24:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-03-31T23:34:31Z",
+        "keyword": {
+          "ja": "量子論理",
+          "en": "Quantum Logic"
+        }
+      }
+    ],
+    "research_experience": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_experience/13266164",
+        "@type": "research_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_experience",
+        "rm:id": "13266164",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2012-03-31T21:38:55Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T07:48:02Z",
+        "from_date": "2021-04",
+        "to_date": "9999",
+        "rm:institution_code": "6708804000",
+        "affiliation": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "section": {
+          "ja": "情報工学科",
+          "en": "Department of Information Engineering"
+        },
+        "job": {
+          "ja": "教授",
+          "en": "Professor"
+        },
+        "address_country": "JPN"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_experience/32104877",
+        "@type": "research_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_experience",
+        "rm:id": "32104877",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2021-04-03T05:41:59Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T07:47:55Z",
+        "from_date": "2012-04",
+        "to_date": "2021-03",
+        "rm:institution_code": "6708804000",
+        "affiliation": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "section": {
+          "ja": "情報工学科",
+          "en": "Department of Information Engineering"
+        },
+        "job": {
+          "ja": "准教授",
+          "en": "Associate Professor"
+        },
+        "address_country": "JPN"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_experience/763049",
+        "@type": "research_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_experience",
+        "rm:id": "763049",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:34:42Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T07:47:50Z",
+        "from_date": "2009-04",
+        "to_date": "2012-03",
+        "rm:institution_code": "6708804000",
+        "affiliation": {
+          "ja": "大分工業高等専門学校",
+          "en": "Oita National College of Technology"
+        },
+        "section": {
+          "ja": "制御情報工学科",
+          "en": "Department of Computer and Control Engineering"
+        },
+        "job": {
+          "ja": "准教授",
+          "en": "Associate Professor"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_experience/763048",
+        "@type": "research_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_experience",
+        "rm:id": "763048",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:33:50Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T07:47:49Z",
+        "from_date": "2007-04",
+        "to_date": "2009-03",
+        "rm:institution_code": "6708804000",
+        "affiliation": {
+          "ja": "大分工業高等専門学校",
+          "en": "Oita National College of Technology"
+        },
+        "section": {
+          "ja": "制御情報工学科",
+          "en": "Department of Computer and Control Engineering"
+        },
+        "job": {
+          "ja": "講師",
+          "en": "Assistant Professor"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/research_experience/763047",
+        "@type": "research_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/research_experience",
+        "rm:id": "763047",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:32:07Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T07:47:45Z",
+        "from_date": "2003-04",
+        "to_date": "2007-03",
+        "rm:institution_code": "0280599000",
+        "affiliation": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "section": {
+          "ja": "高等教育研究開発推進機構",
+          "en": "Institute for the Promotion of Excellence in Higher Education"
+        },
+        "job": {
+          "ja": "非常勤講師",
+          "en": "Part-time Lecturer"
+        }
+      }
+    ],
+    "education": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/education/24506960",
+        "@type": "education",
+        "@reverse": "https://api.researchmap.jp/tokuo/education",
+        "rm:id": "24506960",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2020-02-04T11:17:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2021-12-04T07:50:59Z",
+        "from_date": "2001-04",
+        "to_date": "2003-03",
+        "rm:institution_code": "0280065000",
+        "affiliation": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "department": {
+          "ja": "大学院人間・環境学研究科",
+          "en": "Graduate School of Human and Environmental Studies"
+        },
+        "course": {
+          "ja": "人間・環境学専攻 (環境情報認知論講座)",
+          "en": "Department of Human and Environmental Studies"
+        },
+        "note": {
+          "ja": "博士後期課程",
+          "en": "Doctoral Student"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/education/24506943",
+        "@type": "education",
+        "@reverse": "https://api.researchmap.jp/tokuo/education",
+        "rm:id": "24506943",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2020-02-04T11:14:42Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2021-12-04T07:50:28Z",
+        "from_date": "2000-04",
+        "to_date": "2001-03",
+        "rm:institution_code": "0280065000",
+        "affiliation": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "department": {
+          "ja": "大学院人間・環境学研究科",
+          "en": "Graduate School of Human and Environmental Studies"
+        },
+        "course": {
+          "ja": "文化・地域環境学専攻 (環境保全発展論講座)",
+          "en": "Department of Cultural and Regional Environmental Studies"
+        },
+        "note": {
+          "ja": "博士後期課程",
+          "en": "Doctoral Student"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/education/68471",
+        "@type": "education",
+        "@reverse": "https://api.researchmap.jp/tokuo/education",
+        "rm:id": "68471",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:38:42Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2021-12-04T07:50:03Z",
+        "from_date": "1998-04",
+        "to_date": "2000-03",
+        "rm:institution_code": "0280065000",
+        "affiliation": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "department": {
+          "ja": "大学院人間・環境学研究科",
+          "en": "Graduate School of Human and Environmental Studies"
+        },
+        "course": {
+          "ja": "文化・地域環境学専攻 (環境保全発展論講座)",
+          "en": "Department of Cultural and Regional Environmental Studies"
+        },
+        "note": {
+          "ja": "修士課程",
+          "en": "Master's Student"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/education/68470",
+        "@type": "education",
+        "@reverse": "https://api.researchmap.jp/tokuo/education",
+        "rm:id": "68470",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": false,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:37:07Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-09-17T23:17:54Z",
+        "from_date": "1994-04",
+        "to_date": "1998-03",
+        "rm:institution_code": "0280508000",
+        "affiliation": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "department": {
+          "ja": "理学部",
+          "en": "Faculty of Science"
+        },
+        "course": {
+          "ja": "数理科学系",
+          "en": "Department of Mathematics"
+        }
+      }
+    ],
+    "committee_memberships": [],
+    "awards": [],
+    "published_papers": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/54745028",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "54745028",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-08-26T09:02:58Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-10-06T07:13:44Z",
+        "paper_title": {
+          "en": "Strict implication in quantum modal logic"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "en": "Quantum logic has no canonical implication connective, and polynomial candidates differ in the inferential principles they satisfy. We study a relational strict implication in quantum modal logic and interpret it through the modal accessibility relation. On reflexive modal frames, a formula formed with this connective is valid exactly when its antecedent semantically entails its consequent. The connective therefore internalizes semantic consequence. The forcing condition links modal accessibility to non-orthogonality. Consequently, any formula whose principal connective is this strict implication has the same truth value throughout each component determined by non-orthogonality. The truth set of each such formula therefore belongs to the Boolean algebra of unions of these components. We also establish further semantic laws and analyze quantum disjunction, contraposition, and nested implications."
+        },
+        "publisher": {
+          "en": "Oxford University Press"
+        },
+        "publication_date": "2026-10",
+        "publication_name": {
+          "en": "Logic Journal of the IGPL"
+        },
+        "volume": "34",
+        "number": "6",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "identifiers": {
+          "doi": [
+            "10.1093/jigpal/jzag052"
+          ],
+          "rm:research_project_id": [
+            "45689164"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1093/jigpal/jzag052",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://api.researchmap.jp/tokuo/research_projects/45689164",
+            "label": "rm:research_project_id"
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/49231943",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "49231943",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-02-24T11:56:42Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-03-20T02:42:50Z",
+        "paper_title": {
+          "en": "Decidability of quantum modal logic"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "en": "The decidability of a logical system refers to the existence of an algorithm that can determine whether any given formula in that system is a theorem. In this paper, Harrop’s lemma is used to prove the decidability of quantum modal logic."
+        },
+        "publisher": {
+          "en": "Oxford University Press (OUP)"
+        },
+        "publication_date": "2025-03",
+        "publication_name": {
+          "en": "Logic Journal of the IGPL"
+        },
+        "volume": "33",
+        "number": "3",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "identifiers": {
+          "doi": [
+            "10.1093/jigpal/jzaf010",
+            "10.48550/arXiv.2603.18368"
+          ],
+          "issn": [
+            "1367-0751"
+          ],
+          "e_issn": [
+            "1368-9894"
+          ],
+          "rm:research_project_id": [
+            "45689164"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1093/jigpal/jzaf010",
+            "is_downloadable": false
+          },
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.48550/arXiv.2603.18368",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://academic.oup.com/jigpal/advance-article-pdf/doi/10.1093/jigpal/jzaf010/62419084/jzaf010.pdf",
+            "label": "url",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://api.researchmap.jp/tokuo/research_projects/45689164",
+            "label": "rm:research_project_id"
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/48208104",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "48208104",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-10-15T09:56:11Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-11-14T02:41:19Z",
+        "paper_title": {
+          "en": "Quantum modal logic"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "en": "A modal logic based on quantum logic is formalized in its simplest possible form. Specifically, a relational semantics and a sequent calculus are provided, and the soundness and the completeness theorems connecting both notions are demonstrated. This framework is intended to serve as a basis for formalizing various modal logics over quantum logic, such as quantum alethic logic, quantum temporal logic, quantum epistemic logic, and quantum dynamic logic."
+        },
+        "publisher": {
+          "en": "Oxford University Press"
+        },
+        "publication_date": "2024-11",
+        "publication_name": {
+          "en": "Logic Journal of the IGPL"
+        },
+        "volume": "33",
+        "number": "3",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1093/jigpal/jzae123",
+            "10.48550/arXiv.2511.10188"
+          ],
+          "rm:research_project_id": [
+            "45689164"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1093/jigpal/jzae123",
+            "is_downloadable": false
+          },
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.48550/arXiv.2511.10188",
+            "is_downloadable": true
+          },
+          {
+            "@id": "https://api.researchmap.jp/tokuo/research_projects/45689164",
+            "label": "rm:research_project_id"
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/39522501",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "39522501",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2022-08-05T12:45:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-10-16T21:59:52Z",
+        "paper_title": {
+          "en": "Natural Deduction for Quantum Logic"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "en": "This paper presents a natural deduction system for orthomodular quantum logic. The system is shown to be provably equivalent to Nishimura’s quantum sequent calculus. Through the Curry–Howard isomorphism, quantum λ-calculus is also introduced for which strong normalization property is established."
+        },
+        "publisher": {
+          "en": "Springer Science and Business Media LLC"
+        },
+        "publication_date": "2022-08",
+        "publication_name": {
+          "en": "Logica Universalis"
+        },
+        "volume": "16",
+        "number": "3",
+        "starting_page": "469",
+        "ending_page": "497",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "published_paper_type": "scientific_journal",
+        "rm:is_open_access": false,
+        "identifiers": {
+          "doi": [
+            "10.1007/s11787-022-00307-7"
+          ],
+          "issn": [
+            "1661-8297"
+          ],
+          "e_issn": [
+            "1661-8300"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s11787-022-00307-7",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cS8UC",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/35995940",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "35995940",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2021-12-06T11:58:45Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-12-20T01:03:42Z",
+        "paper_title": {
+          "en": "Implicational quantum logic"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "en": "A non-classical subsystem of orthomodular quantum logic is proposed. This system employs two basic operations: the Sasaki hook as implication and the and-then operation as conjunction. These operations successfully satisfy modus ponens and the deduction theorem. In other words, they form an adjunction in terms of category theory. Two types of semantics are presented for this logic: one algebraic and one physical. The algebraic semantics deals with orthomodular lattices, as in traditional quantum logic. The physical semantics is given as a procedure for deriving a final segment of a series of yes-no experiments."
+        },
+        "publisher": {
+          "en": "Springer Science and Business Media LLC"
+        },
+        "publication_date": "2022-01",
+        "publication_name": {
+          "en": "Axiomathes"
+        },
+        "volume": "32",
+        "number": "Suppl 2",
+        "starting_page": "473",
+        "ending_page": "483",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s10516-021-09614-y"
+          ],
+          "issn": [
+            "1122-1151"
+          ],
+          "e_issn": [
+            "1572-8390"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s10516-021-09614-y",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://link.springer.com/content/pdf/10.1007/s10516-021-09614-y.pdf",
+            "label": "url",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFtGa",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/22854601",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "22854601",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2019-08-28T21:57:07Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-02-07T03:19:48Z",
+        "paper_title": {
+          "ja": "Feasible Computation Based on Quantum Logic",
+          "en": "Feasible Computation Based on Quantum Logic"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "ja": "The objective of this paper is to propose a feasible computational framework based on quantum logic. The usual quantum logic-based computational processes easily get stuck. The difficulty with the computation is ascribed to the difference in the inference rules for quantum and classical negations. It is shown that the new inference rule for negation which is akin to the classical one is partially applicable even to the quantum case. The resulting framework makes it possible to go beyond what the usual quantum logic-based computation could do.",
+          "en": "The objective of this paper is to propose a feasible computational framework based on quantum logic. The usual quantum logic-based computational processes easily get stuck. The difficulty with the computation is ascribed to the difference in the inference rules for quantum and classical negations. It is shown that the new inference rule for negation which is akin to the classical one is partially applicable even to the quantum case. The resulting framework makes it possible to go beyond what the usual quantum logic-based computation could do."
+        },
+        "publisher": {
+          "ja": "Springer Nature",
+          "en": "Springer Nature"
+        },
+        "publication_date": "2019-10",
+        "publication_name": {
+          "ja": "SN Applied Sciences",
+          "en": "SN Applied Sciences"
+        },
+        "volume": "1:1255",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s42452-019-1193-x"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s42452-019-1193-x",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rd.springer.com/article/10.1007/s42452-019-1193-x",
+            "label": "url",
+            "is_downloadable": true
+          },
+          {
+            "@id": "https://rdcu.be/cFusv",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/23188032",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "23188032",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2018-08-24T14:39:10Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-02-07T03:18:51Z",
+        "paper_title": {
+          "ja": "Fungibility in Quantum Sets",
+          "en": "Fungibility in Quantum Sets"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "description": {
+          "ja": "It can be intuitively understood that sets and their elements in mathematics reflect the atomistic way of thinking in physics: Sets correspond to physical properties, and their elements correspond to particles that have these properties. At the same time, quantum statistics and quantum field theory strongly support the view that quantum particles are not individuals. Some of the problems faced in modern physics may be caused by such discrepancy between set theory and physical theory. The question then arises: Is it possible to reconstruct the concept of set as a collection of objects that model quantum particles rather than as a mere collection of individuals? David Deutsch has argued that identical entities can be diverse in their attributes, and that this nature, what he calls fungibility, must lie at the heart of quantum physics. In line with this idea, a set theory with fungible elements is established, and the collection of such sets is shown to be endowed with an ortholattice structure, which is better known as quantum logic.",
+          "en": "It can be intuitively understood that sets and their elements in mathematics reflect the atomistic way of thinking in physics: Sets correspond to physical properties, and their elements correspond to particles that have these properties. At the same time, quantum statistics and quantum field theory strongly support the view that quantum particles are not individuals. Some of the problems faced in modern physics may be caused by such discrepancy between set theory and physical theory. The question then arises: Is it possible to reconstruct the concept of set as a collection of objects that model quantum particles rather than as a mere collection of individuals? David Deutsch has argued that identical entities can be diverse in their attributes, and that this nature, what he calls fungibility, must lie at the heart of quantum physics. In line with this idea, a set theory with fungible elements is established, and the collection of such sets is shown to be endowed with an ortholattice structure, which is better known as quantum logic."
+        },
+        "publisher": {
+          "ja": "Springer Nature",
+          "en": "Springer Nature"
+        },
+        "publication_date": "2019-06",
+        "publication_name": {
+          "ja": "Axiomathes",
+          "en": "Axiomathes"
+        },
+        "volume": "29",
+        "number": "3",
+        "starting_page": "297",
+        "ending_page": "310",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s10516-018-9397-z"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s10516-018-9397-z",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFus3",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/3633606",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "3633606",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2012-10-20T05:00:57Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-01-22T08:20:51Z",
+        "paper_title": {
+          "ja": "Unified Interpretation of Quantum and Classical Logics",
+          "en": "Unified Interpretation of Quantum and Classical Logics"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publication_date": "2014-03",
+        "publication_name": {
+          "ja": "Axiomathes",
+          "en": "Axiomathes"
+        },
+        "volume": "24",
+        "number": "1",
+        "starting_page": "1",
+        "ending_page": "7",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s10516-012-9199-7"
+          ],
+          "issn": [
+            "1122-1151",
+            "1572-8390"
+          ],
+          "e_issn": [
+            "1572-8390"
+          ],
+          "j_global_id": [
+            "201702204957725138"
+          ],
+          "wos_id": [
+            "WOS:000330987300001"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s10516-012-9199-7",
+            "is_downloadable": false
+          },
+          {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201702204957725138",
+            "is_downloadable": false
+          },
+          {
+            "label": "web_of_science",
+            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000330987300001&DestApp=WOS_CPL",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFutt",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/1083559",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "1083559",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-04T00:45:49Z",
+        "rm:modifier_id": "ai:identify_based_internal_feeds",
+        "rm:modifier_type": "ai",
+        "rm:modified": "2020-08-31T09:13:43Z",
+        "paper_title": {
+          "en": "Linearity and Negation",
+          "ja": "Linearity and Negation"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publisher": {
+          "en": "Taylor & Francis",
+          "ja": "Taylor & Francis"
+        },
+        "publication_date": "2012-06",
+        "publication_name": {
+          "en": "Journal of Applied Non-Classical Logics",
+          "ja": "Journal of Applied Non-Classical Logics"
+        },
+        "volume": "22",
+        "number": "1–2",
+        "starting_page": "43",
+        "ending_page": "51",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "identifiers": {
+          "doi": [
+            "10.1080/11663081.2012.682438"
+          ],
+          "issn": [
+            "1166-3081",
+            "1958-5780"
+          ],
+          "scopus_id": [
+            "84866027861"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1080/11663081.2012.682438",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/1083557",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "1083557",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:10:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-01-22T08:24:56Z",
+        "paper_title": {
+          "ja": "Logic of Simultaneity",
+          "en": "Logic of Simultaneity"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publication_date": "2009-05",
+        "publication_name": {
+          "ja": "International Journal of Theoretical Physics",
+          "en": "International Journal of Theoretical Physics"
+        },
+        "volume": "48",
+        "number": "5",
+        "starting_page": "1290",
+        "ending_page": "1299",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s10773-008-9900-1"
+          ],
+          "issn": [
+            "1572-9575",
+            "0020-7748"
+          ],
+          "j_global_id": [
+            "201302290235464325"
+          ],
+          "wos_id": [
+            "WOS:000265383600006"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s10773-008-9900-1",
+            "is_downloadable": false
+          },
+          {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302290235464325",
+            "is_downloadable": false
+          },
+          {
+            "label": "web_of_science",
+            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000265383600006&DestApp=WOS_CPL",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFuug",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/1083556",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "1083556",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:09:11Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-02-07T03:20:52Z",
+        "paper_title": {
+          "ja": "Quantum Number Theory",
+          "en": "Quantum Number Theory"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publication_date": "2004-12",
+        "publication_name": {
+          "ja": "International Journal of Theoretical Physics",
+          "en": "International Journal of Theoretical Physics"
+        },
+        "volume": "43",
+        "number": "12",
+        "starting_page": "2461",
+        "ending_page": "2481",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1007/s10773-004-7711-6"
+          ],
+          "issn": [
+            "0020-7748"
+          ],
+          "wos_id": [
+            "WOS:000226116400009"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1007/s10773-004-7711-6",
+            "is_downloadable": false
+          },
+          {
+            "label": "web_of_science",
+            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000226116400009&DestApp=WOS_CPL",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFuuC",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/1083555",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "1083555",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:07:38Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-02-07T03:21:24Z",
+        "paper_title": {
+          "ja": "Extended Quantum Logic",
+          "en": "Extended Quantum Logic"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publication_date": "2003-10",
+        "publication_name": {
+          "ja": "Journal of Philosophical Logic",
+          "en": "Journal of Philosophical Logic"
+        },
+        "volume": "32",
+        "number": "5",
+        "starting_page": "549",
+        "ending_page": "563",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1023/A:1025693128153"
+          ],
+          "issn": [
+            "0022-3611",
+            "1573-0433"
+          ],
+          "j_global_id": [
+            "201302250914463492"
+          ],
+          "wos_id": [
+            "WOS:000185855500004"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1023/A:1025693128153",
+            "is_downloadable": false
+          },
+          {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201302250914463492",
+            "is_downloadable": false
+          },
+          {
+            "label": "web_of_science",
+            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000185855500004&DestApp=WOS_CPL",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFuvW",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/published_papers/1083554",
+        "@type": "published_papers",
+        "@reverse": "https://api.researchmap.jp/tokuo/published_papers",
+        "rm:id": "1083554",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:06:12Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-02-07T03:21:44Z",
+        "paper_title": {
+          "ja": "Typed Quantum Logic",
+          "en": "Typed Quantum Logic"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ],
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "published_paper_owner_roles": [
+          "lead",
+          "corresponding"
+        ],
+        "publication_date": "2003-01",
+        "publication_name": {
+          "ja": "International Journal of Theoretical Physics",
+          "en": "International Journal of Theoretical Physics"
+        },
+        "volume": "42",
+        "number": "1",
+        "starting_page": "27",
+        "ending_page": "38",
+        "languages": [
+          "eng"
+        ],
+        "referee": true,
+        "invited": false,
+        "published_paper_type": "scientific_journal",
+        "is_international_journal": true,
+        "rm:is_open_access": true,
+        "identifiers": {
+          "doi": [
+            "10.1023/A:1023374921204"
+          ],
+          "issn": [
+            "0020-7748"
+          ],
+          "j_global_id": [
+            "201102253145443364"
+          ],
+          "wos_id": [
+            "WOS:000182210800003"
+          ]
+        },
+        "see_also": [
+          {
+            "label": "doi",
+            "@id": "https://doi.org/10.1023/A:1023374921204",
+            "is_downloadable": false
+          },
+          {
+            "label": "j_global",
+            "@id": "https://jglobal.jst.go.jp/detail?JGLOBAL_ID=201102253145443364",
+            "is_downloadable": false
+          },
+          {
+            "label": "web_of_science",
+            "@id": "https://gateway.webofknowledge.com/gateway/Gateway.cgi?GWVersion=2&SrcAuth=JSTA_CEL&SrcApp=J_Gate_JST&DestLinkType=FullRecord&KeyUT=WOS:000182210800003&DestApp=WOS_CPL",
+            "is_downloadable": false
+          },
+          {
+            "@id": "https://rdcu.be/cFuvY",
+            "label": "url",
+            "is_downloadable": true
+          }
+        ]
+      }
+    ],
+    "misc": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/55337756",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "55337756",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-10-26T07:32:31Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-10-26T07:32:44Z",
+        "paper_title": {
+          "en": "Review of J. Paseka, J. K. Putra and R. Smolka's <i> On 𝒯-based orthomodular dynamic algebras</i>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2026-10",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "starting_page": "MR5069687",
+        "languages": [
+          "eng"
+        ],
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=5069687",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/54653416",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "54653416",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-08-16T21:02:17Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-08-16T21:03:59Z",
+        "paper_title": {
+          "ja": "Review of L. C. Ciungu's <i> Implicative-ortholattices as orthogonality spaces</i>"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "ja": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2026-08",
+        "publication_name": {
+          "ja": "Mathematical Reviews"
+        },
+        "volume": "MR5024705",
+        "languages": [
+          "eng"
+        ],
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=5024705e",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/52922714",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "52922714",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-03-12T19:10:21Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-03-12T19:19:17Z",
+        "paper_title": {
+          "ja": "Review of M. Korbelář, J. Paseka and T. Vetterlein's <i>Characterisation of quadratic spaces over the Hilbert field by means of the orthogonality relation</i>"
+        },
+        "authors": {
+          "ja": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "ja": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2026-03",
+        "publication_name": {
+          "ja": "Mathematical Reviews"
+        },
+        "volume": "MR4961408",
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4961408e",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/51931355",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "51931355",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-12-24T19:23:22Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-12-24T19:24:39Z",
+        "paper_title": {
+          "en": "Review of K. Emir and J. Paseka's <i>Quantum implications in orthomodular posets</i>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2025-12",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "volume": "MR4868314",
+        "languages": [
+          "eng"
+        ],
+        "referee": false,
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4868314",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/50667032",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "50667032",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-07-21T04:05:23Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-08-13T20:05:31Z",
+        "paper_title": {
+          "en": "Review of N. J. Goldstein's <i>Composite systems: uniqueness</i>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2025-07",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "volume": "MR4759711",
+        "languages": [
+          "eng"
+        ],
+        "referee": false,
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet-getitem?mr=4759711",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/46408058",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "46408058",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-05-07T20:20:35Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-05-07T20:24:34Z",
+        "paper_title": {
+          "en": "Review of B. Lindenhovius and T. Vetterlein's <i>A characterisation of orthomodular spaces by Sasaki maps</i>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2024-05",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "starting_page": "MR4557938",
+        "languages": [
+          "eng"
+        ],
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4557938",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/45668622",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "45668622",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-02-27T10:36:29Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-02-27T10:41:35Z",
+        "paper_title": {
+          "en": "Review of S. Zhong's <i>Quantum entanglement: an analysis via the orthogonality relation</i>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2024-02",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "starting_page": "MR4624096",
+        "languages": [
+          "eng"
+        ],
+        "referee": false,
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4624096",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/43841826",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "43841826",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-10-21T08:59:23Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:31:13Z",
+        "paper_title": {
+          "en": "Review of I. Chajda and H. Länger's <I>Tense logic based on finite orthomodular posets</I>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2023-09",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "starting_page": "MR4572237",
+        "languages": [
+          "eng"
+        ],
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4572237",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/misc/43841836",
+        "@type": "misc",
+        "@reverse": "https://api.researchmap.jp/tokuo/misc",
+        "rm:id": "43841836",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-10-21T09:06:32Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:31:35Z",
+        "paper_title": {
+          "en": "Review of D. Fazio, A. Ledda and F. Paoli's <I>On Finch's conditions for the completion of orthomodular posets</I>"
+        },
+        "authors": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "publisher": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "publication_date": "2023-08",
+        "publication_name": {
+          "en": "Mathematical Reviews"
+        },
+        "starting_page": "MR4544240",
+        "languages": [
+          "eng"
+        ],
+        "invited": true,
+        "misc_type": "book_review",
+        "is_international_journal": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "@id": "https://mathscinet.ams.org/mathscinet/article?mr=4544240",
+            "label": "url",
+            "is_downloadable": false
+          }
+        ]
+      }
+    ],
+    "books_etc": [],
+    "presentations": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/presentations/39589037",
+        "@type": "presentations",
+        "@reverse": "https://api.researchmap.jp/tokuo/presentations",
+        "rm:id": "39589037",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2022-08-10T22:15:58Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-09-17T23:00:57Z",
+        "presentation_title": {
+          "en": "Natural Deduction for Quantum Logic"
+        },
+        "presenters": {
+          "en": [
+            {
+              "name": "Kenji Tokuo"
+            }
+          ]
+        },
+        "event": {
+          "en": "Logica Universalis Webinar 2022 (LUW 2022)"
+        },
+        "publication_date": "2022-08",
+        "invited": true,
+        "languages": [
+          "eng"
+        ],
+        "presentation_type": "public_discourse",
+        "dataset": {
+          "dataset_name": "Natural Deduction for Quantum Logic.pdf",
+          "dataset_type": "published",
+          "access_url": "https://researchmap.jp/tokuo/presentations/39589037/attachment_file.pdf",
+          "rm:media_type": "application/pdf",
+          "rm:use_password": false,
+          "thumbnail_url": "https://researchmap.jp/tokuo/presentations/39589037/attachment_file.pdf?thumbnail"
+        },
+        "description": {
+          "en": "This paper presents a natural deduction system for orthomodular quantum logic. The system is shown to be provably equivalent to Nishimura’s quantum sequent calculus. Through the Curry–Howard isomorphism, quantum λ-calculus is also introduced for which strong normalization property is established."
+        },
+        "is_international_presentation": true,
+        "rm:is_open_access": false,
+        "see_also": [
+          {
+            "is_downloadable": false,
+            "@id": "https://www.springer.com/journal/11787/updates/20065848",
+            "label": "url"
+          }
+        ]
+      }
+    ],
+    "teaching_experience": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/41886840",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "41886840",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:07:28Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-03-31T23:07:37Z",
+        "subject_name": {
+          "ja": "離散数学",
+          "en": "Discrete Mathematics"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2023",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/7719179",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "7719179",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2019-03-31T20:34:04Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:09:05Z",
+        "subject_name": {
+          "ja": "情報リテラシ",
+          "en": "Information Literacy"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2019",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/2145417",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "2145417",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2016-04-03T01:48:15Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:07:21Z",
+        "subject_name": {
+          "ja": "形式言語理論",
+          "en": "Formal Language Theory"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2016",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1857628",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1857628",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-09-30T21:06:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:07:05Z",
+        "subject_name": {
+          "ja": "特別研究II",
+          "en": "Advanced Graduation Research II"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2015",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1857624",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1857624",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-09-30T21:06:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:06:48Z",
+        "subject_name": {
+          "ja": "情報数学",
+          "en": "Information Mathematics"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2015",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1857627",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1857627",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-09-30T21:06:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:06:36Z",
+        "subject_name": {
+          "ja": "特別研究I",
+          "en": "Advanced Graduation Research I"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2014",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105455",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105455",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:06:06Z",
+        "subject_name": {
+          "ja": "数理論理学",
+          "en": "Mathematical Logic"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2008",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105454",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105454",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:05:46Z",
+        "subject_name": {
+          "ja": "論理数学",
+          "en": "Computer Mathematics"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2008",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1857625",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1857625",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-09-30T21:06:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:05:15Z",
+        "subject_name": {
+          "ja": "卒業研究",
+          "en": "Graduation Research"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105456",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105456",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:04:42Z",
+        "subject_name": {
+          "ja": "工学実験II",
+          "en": "Engineering Experiments II"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "9999"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/2391669",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "2391669",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2016-10-02T21:50:33Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-03-31T21:23:23Z",
+        "subject_name": {
+          "ja": "計算理論",
+          "en": "Computation Theory"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2016",
+        "to_date": "2024"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/36691291",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "36691291",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2022-04-06T21:31:32Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-03-31T23:06:05Z",
+        "subject_name": {
+          "ja": "工学実験III",
+          "en": "Engineering Experiments III"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2022",
+        "to_date": "2022"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/24527152",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "24527152",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2020-02-06T11:56:25Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2022-04-06T21:30:25Z",
+        "subject_name": {
+          "ja": "情報理論",
+          "en": "Information Theory"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2016",
+        "to_date": "2021"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/973269",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "973269",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2013-10-02T00:58:40Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:04:14Z",
+        "subject_name": {
+          "ja": "プログラミング基礎III",
+          "en": "Foundation of Programming III"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2013",
+        "to_date": "2019"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105450",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105450",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:03:43Z",
+        "subject_name": {
+          "ja": "情報数学II",
+          "en": "Information Mathematics II"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "2016"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1565212",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1565212",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-03-31T20:02:23Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:03:25Z",
+        "subject_name": {
+          "ja": "基礎演習IV",
+          "en": "Basic Exercise IV"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2015",
+        "to_date": "2015"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/24527146",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "24527146",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2020-02-06T11:55:34Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:03:04Z",
+        "subject_name": {
+          "ja": "情報理論",
+          "en": "Information Theory"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2014",
+        "to_date": "2015"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/1857626",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "1857626",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2015-09-30T21:06:46Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:02:44Z",
+        "subject_name": {
+          "ja": "特別研究",
+          "en": "Advanced Graduation Research"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2010",
+        "to_date": "2015"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105449",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105449",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:01:32Z",
+        "subject_name": {
+          "ja": "情報数学I",
+          "en": "Information Mathematics I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "2015"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/973270",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "973270",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2013-10-02T00:58:40Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:00:51Z",
+        "subject_name": {
+          "ja": "基礎演習I",
+          "en": "Basic Exercise I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2013",
+        "to_date": "2014"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/382464",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "382464",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2012-03-31T21:43:32Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T04:00:08Z",
+        "subject_name": {
+          "ja": "ディジタル回路I",
+          "en": "Digital Circuits I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2011",
+        "to_date": "2012"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105458",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105458",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:59:43Z",
+        "subject_name": {
+          "ja": "工学実験I",
+          "en": "Engineering Experiments I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2011",
+        "to_date": "2012"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105464",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105464",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:59:22Z",
+        "subject_name": {
+          "ja": "工学実験基礎",
+          "en": "Basic Engineering Experiments"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2010",
+        "to_date": "2012"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105463",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105463",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:58:04Z",
+        "subject_name": {
+          "ja": "プロジェクト演習III",
+          "en": "Projected Exercise III"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2011",
+        "to_date": "2011"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105462",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105462",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:57:30Z",
+        "subject_name": {
+          "ja": "情報特論",
+          "en": "Advanced Course of Information"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2008",
+        "to_date": "2011"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105461",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105461",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:56:48Z",
+        "subject_name": {
+          "ja": "数値解析II",
+          "en": "Numerical Analysis II"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2009",
+        "to_date": "2010"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105459",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105459",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:56:21Z",
+        "subject_name": {
+          "ja": "情報理論",
+          "en": "Information Theory"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2009",
+        "to_date": "2010"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105460",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105460",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:55:53Z",
+        "subject_name": {
+          "ja": "数値解析I",
+          "en": "Numerical Analysis I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2009",
+        "to_date": "2009"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105457",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105457",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:02Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:55:15Z",
+        "subject_name": {
+          "ja": "工学実験V",
+          "en": "Engineering Experiments V"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2008",
+        "to_date": "2008"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105453",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105453",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:54:27Z",
+        "subject_name": {
+          "ja": "情報特論I",
+          "en": "Advanced Course of Information I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "2008"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105452",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105452",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:53:37Z",
+        "subject_name": {
+          "ja": "プロジェクト実験II",
+          "en": "Project Based Experiment II"
+        },
+        "rm:institution_code": "6708806000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校専攻科",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "2008"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105451",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105451",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:49:01Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:52:34Z",
+        "subject_name": {
+          "ja": "英語特論I",
+          "en": "Advanced Course of English I"
+        },
+        "rm:institution_code": "6708000000",
+        "institution_name": {
+          "ja": "大分工業高等専門学校",
+          "en": "National Institute of Technology, Oita College"
+        },
+        "from_date": "2007",
+        "to_date": "2008"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105448",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105448",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:43:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:50:18Z",
+        "subject_name": {
+          "ja": "情報数学基礎論B",
+          "en": "Fundamental Information Mathematics B"
+        },
+        "rm:institution_code": "0280000000",
+        "institution_name": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "from_date": "2006",
+        "to_date": "2007"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105445",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105445",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:43:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:49:51Z",
+        "subject_name": {
+          "ja": "情報科学実習",
+          "en": "Exercises in Information Sciences"
+        },
+        "rm:institution_code": "0280000000",
+        "institution_name": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "from_date": "2003",
+        "to_date": "2007"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105447",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105447",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:43:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:49:23Z",
+        "subject_name": {
+          "ja": "情報数学基礎論A",
+          "en": "Fundamental Information Mathematics A"
+        },
+        "rm:institution_code": "0280000000",
+        "institution_name": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "from_date": "2006",
+        "to_date": "2006"
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/teaching_experience/105446",
+        "@type": "teaching_experience",
+        "@reverse": "https://api.researchmap.jp/tokuo/teaching_experience",
+        "rm:id": "105446",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:43:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2020-02-09T03:48:41Z",
+        "subject_name": {
+          "ja": "情報科学演習",
+          "en": "Practicals for Information Sciences"
+        },
+        "rm:institution_code": "0280000000",
+        "institution_name": {
+          "ja": "京都大学",
+          "en": "Kyoto University"
+        },
+        "from_date": "2005",
+        "to_date": "2006"
+      }
+    ],
+    "association_memberships": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/association_memberships/48685178",
+        "@type": "association_memberships",
+        "@reverse": "https://api.researchmap.jp/tokuo/association_memberships",
+        "rm:id": "48685178",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-12-11T09:20:29Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-12-10T23:12:50Z",
+        "academic_society_name": {
+          "ja": "Association for Computing Machinery (ACM)",
+          "en": "Association for Computing Machinery (ACM)"
+        },
+        "from_date": "2024",
+        "to_date": "9999",
+        "see_also": [
+          {
+            "@id": "https://www.acm.org/",
+            "label": "url"
+          }
+        ]
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/association_memberships/72594",
+        "@type": "association_memberships",
+        "@reverse": "https://api.researchmap.jp/tokuo/association_memberships",
+        "rm:id": "72594",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2011-10-03T23:39:49Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-12-11T09:30:10Z",
+        "academic_society_name": {
+          "en": "Association for Symbolic Logic (ASL)"
+        },
+        "from_date": "2002",
+        "to_date": "9999",
+        "see_also": [
+          {
+            "@id": "https://aslonline.org/",
+            "label": "url"
+          }
+        ]
+      }
+    ],
+    "works": [],
+    "industrial_property_rights": [],
+    "social_contribution": [],
+    "media_coverage": [],
+    "academic_contribution": [
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/41886847",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "41886847",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:11:29Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-03-31T23:11:37Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Mathematical Reviews"
+        },
+        "academic_contribution_type": "others",
+        "academic_contribution_roles": [
+          "others"
+        ],
+        "promoter": {
+          "en": "American Mathematical Society (AMS)"
+        },
+        "from_event_date": "2023",
+        "to_event_date": "9999",
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/55252453",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "55252453",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-10-14T09:48:03Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-10-14T09:48:21Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Annals of Mathematics and Artificial Intelligence"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/54689035",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "54689035",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-08-20T04:31:03Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-08-20T04:31:19Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Journal of Philosophical Logic"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/53569580",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "53569580",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-05-06T05:16:14Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T05:16:21Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Theoretical Computer Science"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Elsevier"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/53569565",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "53569565",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-05-06T05:13:53Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-05-06T05:14:12Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Logic Journal of the IGPL"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Oxford University Press"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/53327420",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "53327420",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2026-04-12T09:00:28Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2026-04-12T09:00:34Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for International Journal of Theoretical Physics"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/51530487",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "51530487",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-10-25T07:12:43Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-10-25T07:13:40Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Order"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/50351376",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "50351376",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-06-08T07:31:28Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-06-08T07:31:52Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Studia Logica"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/50294898",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "50294898",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-06-01T08:20:12Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-06-01T08:20:18Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Foundations of Physics"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/48839720",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "48839720",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2025-01-01T05:08:32Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2025-01-01T05:08:36Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Synthese"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        }
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/47552106",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "47552106",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-08-28T12:05:16Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-08-28T12:07:39Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Foundations of Science"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/45679844",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "45679844",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2024-02-29T04:14:05Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2024-02-29T04:14:17Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Scientific Reports"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/43841886",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "43841886",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-10-21T09:25:06Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:29:47Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for ACM Transactions on Quantum Computing"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Association for Computing Machinery (ACM)"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/41886963",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "41886963",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:40:03Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:26:06Z",
+        "academic_contribution_title": {
+          "en": "External Reviewer for 38th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS 2023)"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "ACM/IEEE"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/41886877",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "41886877",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:21:59Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:26:35Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for The Review of Symbolic Logic"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Cambridge University Press"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/41886871",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "41886871",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:18:47Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:27:26Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Erkenntnis"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      },
+      {
+        "@id": "https://api.researchmap.jp/tokuo/academic_contribution/41886860",
+        "@type": "academic_contribution",
+        "@reverse": "https://api.researchmap.jp/tokuo/academic_contribution",
+        "rm:id": "41886860",
+        "rm:user_id": "6000005765",
+        "display": "disclosed",
+        "major_achievement": true,
+        "rm:creator_id": "6000005765",
+        "rm:creator_type": "myself",
+        "rm:created": "2023-03-31T23:17:15Z",
+        "rm:modifier_id": "6000005765",
+        "rm:modifier_type": "myself",
+        "rm:modified": "2023-10-21T09:27:55Z",
+        "academic_contribution_title": {
+          "en": "Reviewer for Axiomathes"
+        },
+        "academic_contribution_type": "peer_review_etc",
+        "academic_contribution_roles": [
+          "peer_review"
+        ],
+        "promoter": {
+          "en": "Springer Nature"
+        },
+        "is_international_collaboration": true
+      }
+    ],
+    "others": []
+  }
 }
