@@ -1,0 +1,112 @@
+name: Verify overseas site access
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/verify-overseas-access.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Verify site and saved JSON from GitHub runner
+        shell: bash
+        run: |
+          set -eu
+          date -u
+          echo "Runner public geolocation:"
+          curl -fsSL --max-time 15 https://ipinfo.io/json | python3 -c 'import sys,json; d=json.load(sys.stdin); print({k:d.get(k) for k in ("country","region","city","org")})' || true
+          echo "Checking HTML, JavaScript, and JSON:"
+          for url in "https://kenjitokuo.github.io/" "https://kenjitokuo.github.io/researchmap.js?v=20261030cache" "https://kenjitokuo.github.io/data/researchmap-cache.json"; do
+            curl -sSL --max-time 30 -o /tmp/site-response -w 'HTTP %{http_code} bytes %{size_download} url %{url_effective}\n' "$url"
+            if [[ "$url" == *researchmap-cache.json ]]; then
+              python3 -c 'import json; d=json.load(open("/tmp/site-response")); print("CACHE:", {"updatedAt":d.get("updatedAt"), "published_papers":len(d.get("sections",{}).get("published_papers",[])), "research_interests":len(d.get("sections",{}).get("research_interests",[]))}); assert len(d["sections"]["published_papers"]) >= 1'
+            fi
+          done
+      - name: Measure global HTTP reachability through Check-Host probes
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, time, urllib.request, urllib.error
+          regions = ["US", "DE", "GB", "SG", "AU", "JP", "IN"]
+          def req(url, payload=None):
+              data = json.dumps(payload).encode() if payload is not None else None
+              headers = {"Accept":"application/json","User-Agent":"ResearchmapAccessVerification/1.0"}
+              if data: headers["Content-Type"]="application/json"
+              with urllib.request.urlopen(urllib.request.Request(url, data=data, headers=headers), timeout=25) as r:
+                  return json.load(r)
+          for name, url in [
+              ("homepage","https://kenjitokuo.github.io/"),
+              ("snapshot","https://kenjitokuo.github.io/data/researchmap-cache.json")
+          ]:
+              try:
+                  job = req("https://api.check-host.cc/http", {"target":url,"region":regions,"timeout":12000})
+                  print("CHECK_HOST_START",name, json.dumps(job),flush=True)
+                  uid = job.get("uuid")
+                  if not uid: continue
+                  report = {}
+                  for _ in range(12):
+                      time.sleep(2)
+                      report = req("https://api.check-host.cc/report/"+uid)
+                      if len(report.get("data") or {}) >= 4: break
+                  for node, res in sorted((report.get("data") or {}).items()):
+                      checks = res.get("checks") or []
+                      check = checks[0] if checks else {}
+                      print("GEO_RESULT", name, res.get("countryCode"), res.get("country"), res.get("city"),
+                            node,"http_status="+str(check.get("http_status")),
+                            "status="+str(check.get("status")),
+                            "error="+str(check.get("errortext","")),flush=True)
+                  print("CHECK_HOST_REPORT", name, job.get("reportURL",""), flush=True)
+              except Exception as e:
+                  print("GEO_ERROR",name,repr(e),flush=True)
+          PY
+      - name: Browser test with researchmap API blocked
+        shell: bash
+        run: |
+          set -eu
+          echo "Chrome location:"
+          command -v google-chrome || command -v google-chrome-stable
+          mkdir -p /tmp/overseas-browser-check
+          cd /tmp/overseas-browser-check
+          npm install --no-save --silent playwright-core@1.56.1
+          node --input-type=module <<'NODE'
+          import { chromium } from 'playwright-core';
+          const chrome = process.env.CHROME_BIN || '/usr/bin/google-chrome';
+          const browser = await chromium.launch({ headless: true, executablePath: chrome, args:['--no-sandbox','--disable-dev-shm-usage'] });
+          try {
+            const context = await browser.newContext();
+            let blockedCount = 0;
+            await context.route('**/api.researchmap.jp/**', route => {
+              blockedCount++;
+              return route.abort('blockedbyclient');
+            });
+            const page = await context.newPage();
+            const errors = [];
+            page.on('pageerror', e => errors.push(String(e)));
+            const response = await page.goto('https://kenjitokuo.github.io/', {waitUntil:'domcontentloaded',timeout:30000});
+            await page.waitForFunction(() => {
+              const text = document.getElementById('rm-auto')?.innerText || '';
+              return text.includes('Published Papers (13)') &&
+                     text.includes('Research Interests / Keywords (6)');
+            }, {timeout:30000});
+            const content = await page.locator('#rm-auto').innerText();
+            console.log('BROWSER_TEST',JSON.stringify({
+              homepageHTTP:response?.status(),
+              blockedAPIRequests:blockedCount,
+              publishedPapersVisible:content.includes('Published Papers (13)'),
+              researchInterestsVisible:content.includes('Research Interests / Keywords (6)'),
+              savedDataUsed:true,
+              sampleContent:content.slice(0,250),
+              javascriptErrors:errors
+            }));
+            if (response?.status() !== 200 || !content.includes('Published Papers (13)') ||
+                !content.includes('Research Interests / Keywords (6)')) process.exitCode=1;
+          } finally {
+            await browser.close();
+          }
+          NODE
