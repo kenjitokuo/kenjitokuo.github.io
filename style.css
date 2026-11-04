@@ -48,6 +48,6 @@ a:hover { text-decoration: underline; }
 .small { margin: 8px 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
 
 /* Profile photograph beside the existing two-line heading. */
-.header-row { display: flex; align-items: center; gap: 16px; }
+.header-row { display: flex; align-items: center; gap: 16px; padding-left: 34px; }
 .header-photo { display: block; width: 87px; height: 76px; flex: 0 0 87px; object-fit: cover; }
 .header-text { min-width: 0; }
