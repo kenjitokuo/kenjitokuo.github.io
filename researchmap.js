@@ -613,9 +613,7 @@ function render(root, sections) {
         li.textContent = cleanNoQuestion(item && item._text ? item._text : '');
         if (sec.key === '_affiliation') {
           li.appendChild(document.createElement('br'));
-          li.appendChild(document.createTextNode('Postal Address  1666 Maki, Oita 870-0152, Japan'));
-          li.appendChild(document.createElement('br'));
-          li.appendChild(document.createTextNode('Mail '));
+          li.appendChild(document.createTextNode('Mail: '));
           const email = document.createElement('a');
           email.href = 'mailto:tokuo@oita-ct.ac.jp';
           email.textContent = 'tokuo@oita-ct.ac.jp';
