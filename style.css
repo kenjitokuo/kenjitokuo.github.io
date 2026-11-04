@@ -46,13 +46,3 @@ a:hover { text-decoration: underline; }
 
 .footer { margin: 20px 0 10px; color: var(--muted); }
 .small { margin: 8px 0; color: var(--muted); font-size: 12px; line-height: 1.5; }
-
-/* Contact information in the site header */
-.header-contact { margin-top: 16px; }
-.contact-title { margin: 0 0 8px; font-size: 17px; font-weight: 600; }
-.contact-row { display: grid; grid-template-columns: 126px minmax(0, 1fr); gap: 8px 16px; margin: 5px 0; line-height: 1.6; }
-.contact-label { color: var(--muted); }
-.contact-value { min-width: 0; overflow-wrap: anywhere; }
-@media (max-width: 520px) {
-  .contact-row { grid-template-columns: 1fr; gap: 0; margin: 9px 0; }
-}

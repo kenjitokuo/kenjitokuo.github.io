@@ -611,6 +611,16 @@ function render(root, sections) {
       const li = document.createElement('li');
       if (sec.key === '_affiliation' || sec.key === '_degree') {
         li.textContent = cleanNoQuestion(item && item._text ? item._text : '');
+        if (sec.key === '_affiliation') {
+          li.appendChild(document.createElement('br'));
+          li.appendChild(document.createTextNode('Postal Address  1666 Maki, Oita 870-0152, Japan'));
+          li.appendChild(document.createElement('br'));
+          li.appendChild(document.createTextNode('Mail '));
+          const email = document.createElement('a');
+          email.href = 'mailto:tokuo@oita-ct.ac.jp';
+          email.textContent = 'tokuo@oita-ct.ac.jp';
+          li.appendChild(email);
+        }
         ul.appendChild(li);
         continue;
       }
