@@ -2,28 +2,9 @@
   "version": 1,
   "permalink": "tokuo",
   "lang": "en",
-  "updatedAt": "2026-11-01T23:33:57.122Z",
+  "updatedAt": "2026-11-08T23:41:02.291Z",
   "sections": {
     "research_interests": [
-      {
-        "@id": "https://api.researchmap.jp/tokuo/research_interests/10301522",
-        "@type": "research_interests",
-        "@reverse": "https://api.researchmap.jp/tokuo/research_interests",
-        "rm:id": "10301522",
-        "rm:user_id": "6000005765",
-        "display": "disclosed",
-        "major_achievement": false,
-        "rm:creator_id": "6000005765",
-        "rm:creator_type": "myself",
-        "rm:created": "2019-09-19T03:38:10Z",
-        "rm:modifier_id": "6000005765",
-        "rm:modifier_type": "myself",
-        "rm:modified": "2019-09-19T03:38:10Z",
-        "keyword": {
-          "ja": "科学哲学",
-          "en": "Philosophy of Science"
-        }
-      },
       {
         "@id": "https://api.researchmap.jp/tokuo/research_interests/10301519",
         "@type": "research_interests",
